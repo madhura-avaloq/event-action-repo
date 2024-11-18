@@ -1,7 +1,8 @@
 name: Events Demo 1
 on: 
   pull_request:
-    types: opened
+    types: 
+      - opened
   workfklow_dispatch:
 jobs:
   deploy:
